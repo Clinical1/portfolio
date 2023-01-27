@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a4e70ec2.css",
+    "main.js": "/portfolio/static/js/main.13ea67f0.js",
+    "static/media/backgroundimage.mp4": "/portfolio/static/media/backgroundimage.4e7618f4e79a26a54dc4.mp4",
+    "static/media/gym.png": "/portfolio/static/media/gym.1506bbe2fb2681cee484.png",
+    "static/media/anime.png": "/portfolio/static/media/anime.d265599fada6167fb07c.png",
+    "static/media/home.png": "/portfolio/static/media/home.9bed50ac3860e9f062ea.png",
+    "static/media/travel.png": "/portfolio/static/media/travel.30e42e03ff544d51fbc3.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.2310943e5addf4b13053.png",
+    "static/media/react.png": "/portfolio/static/media/react.7675c1a2ea432d0ed9d1.png",
+    "static/media/mui.png": "/portfolio/static/media/mui.ec4a775a047c6cb25d74.png",
+    "static/media/js.png": "/portfolio/static/media/js.14f65134a00fb071b075.png",
+    "static/media/html.png": "/portfolio/static/media/html.c563d57a1377d1d95711.png",
+    "static/media/css.png": "/portfolio/static/media/css.93b321bea2e8577f6ec9.png",
+    "index.html": "/portfolio/index.html",
+    "main.a4e70ec2.css.map": "/portfolio/static/css/main.a4e70ec2.css.map",
+    "main.13ea67f0.js.map": "/portfolio/static/js/main.13ea67f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4e70ec2.css",
+    "static/js/main.13ea67f0.js"
+  ]
+}
