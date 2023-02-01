@@ -12,8 +12,7 @@
     align-items: center;
     width: 80%;
     margin: 0px auto;
-    height: 90px;
-    
+    height: 90px;    
 }
 .btnsdiv{
     display: flex;
@@ -35,11 +34,12 @@
     display: none;
     background-color: black;
     color: white;
+    border: 0px;
 }
 @media (max-width:1200px){
     .btnsdiv{
         display: none;
-        gap: 50px;
+        gap: 10px;
     }
     .burg{
         display: block;
@@ -54,11 +54,12 @@
         flex-direction: column;
         align-items: center;
         background-color: black;
-        justify-content: center;
+        
     }
     .btn{
         width: 100vw;
         height: 150px;
         font-size: 50px;
+        border: 0px;
     }
 }

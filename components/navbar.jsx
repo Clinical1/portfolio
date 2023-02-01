@@ -2,12 +2,10 @@ import './navbar.scss'
 import { useState } from 'react';
 
 function Navbar() {
-  
   const [showmenu,setshowmenu]=useState(false)
   const closemenu=()=>{
     setshowmenu(false)
   }
-    
   return (
     <nav className='nav' >
       <div className='navwrapper'>
