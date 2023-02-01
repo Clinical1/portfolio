@@ -61,3 +61,11 @@
     position: absolute;
     inset: 4px;
 }
+@media (max-width:315px){
+    .webdiv{
+        width: 80vw;
+    }
+    .box1 ,.box1::before ,.box1::after{
+        width: 83vw;
+    }
+}

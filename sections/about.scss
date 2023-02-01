@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     margin: 0px auto;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
-    gap: 250px;
+    gap: 15%;
+    padding: 20px 0px;
 }
 .aboutme{
     font-size: 50px;
@@ -40,12 +41,45 @@
 }
 .iconsside1,.iconsside2{
     display: flex;
-    gap: 50px;
-    
+    gap: 50px;  
 }
 .aboutdiv{
     width: 400px;
 }
 .aboutp{
     font-size: 20px;
+}
+@media (max-width:1000px){
+    .aboutsection{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .aboutmediv{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+@media (max-width:450px){
+    .icons{
+        width: 15vw;
+        height: 15vw;
+    }
+    .iconsside1,.iconsside2{
+        gap: 10vw;  
+    }
+    
+    .aboutdiv{  
+        width: 90%;
+    }
+    .allicons{
+        width: 90%;
+    
+    }
+}
+@media (max-width:357px){
+    .icons{
+        width: 40px;
+        height: 40px;
+    }
 }

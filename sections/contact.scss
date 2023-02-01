@@ -4,8 +4,9 @@
     margin: 0px auto;
     align-items: center;
     width: 95%;
-    height: 100vh;
+    min-height: 100vh;
     gap: 300px;
+    padding: 20px 0px;
 }
 .conme{
     font-size: 50px;
@@ -94,5 +95,47 @@ ion-icon{
     100%
     {
         transform: rotate(360deg);
+    }
+}
+@media (max-width:1140px){
+    .consection{
+        gap: 50px;
+    }
+}
+@media (max-width:875px){
+    .consection{
+        flex-direction: column-reverse ;
+    }
+}
+@media (max-width:475px){
+    .form{
+        width: 330px;
+    }
+    .input{
+        width: 100%;
+    }
+    .box::after , .box ,.box::before{
+        width: 340px;
+    }
+}
+@media (max-width:340px){
+    .form{
+        width: 90vw;
+        height: 540px;
+    }
+    .box::after , .box ,.box::before{
+        width: 93vw;
+        height: 550px;
+    }
+    .submit{
+        width: 100%;
+    }
+    .enter{
+        font-size: 20px;
+    }
+}
+@media (max-width:310px){
+    .details{
+        gap: 0px;
     }
 }

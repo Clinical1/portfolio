@@ -12,7 +12,9 @@ const About=()=>{
         <section className='aboutwrapper'>
             <div className='aboutsection' id='about'>
                 <div className='aboutdiv'>
-                    <h1 className='aboutme' >About me</h1>
+                    <div className='aboutmediv'>
+                       <h1 className='aboutme' >About me</h1>
+                    </div>
                     <p className='aboutp'>My name is Abdi Aden . I am a self taught developer who loves codeing focused on making beautiful , functional and scalable websites . My favourite language is Javascript . I have spent the last few months learning these technologies.</p>
                 </div>
                 <div className='skillsdiv'>
